@@ -1,6 +1,6 @@
 @font-face{
     font-family: ubuntu;
-     src:url('/fonts/ubuntu.ttf') format('truetype');
+     src:url("../fonts/ubuntu.ttf") format('truetype');
 }
 body {
 	color: #373737;
@@ -10,13 +10,16 @@ body {
   	/*padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
   	margin: 0px;
 	  padding: 0px;
-    background: url(/img/vertical_cloth.png) repeat;
-}
+    background-color:  #737384 ;
+    background-image: url("../img/vertical_cloth.png")
+  }
+   
 
 .header{
 	padding-top:50px;
 	padding-bottom:50px;
   color:white;
+
 }
 .header li a{
   color:#ccc;
@@ -26,12 +29,13 @@ body {
 }
 .container{
 
+
 }
 .white{
-  background-color:white;
+  background-color:White;
 }
 .round{
-  border-radius:5px;
+  border-radius:35px;
 }
 .gray{
   background-color:gray;
@@ -59,4 +63,19 @@ body {
     -moz-border-radius: 127px;
 /*    background: url(/img/polaroid.png) no-repeat;
     display:inline-block;*/
+}
+h1 { font-size: 3.5em; }
+h2 { font-size: 2.5em; font-weight: bold; }
+.text-muted  {
+  font-weight: normal;
+}
+ul {
+  font-size: 15px;
+}
+#Apakete {
+  text-align: center;
+  font-weight: bold;
+}
+header {
+
 }
